@@ -1,0 +1,9 @@
+.next
+.vscode
+next-env.d.ts
+next.config.js
+commitlint.config.js
+node_modules
+yarn.lock
+package-lock.json
+public
