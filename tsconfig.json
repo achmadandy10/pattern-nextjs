@@ -14,8 +14,11 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
+    "baseUrl": ".",
     "paths": {
-      "@/*": ["./*"]
+      "@/components/*": ["components/*"],
+      "@/pages/*": ["pages/*"],
+      "@/styles/*": ["styles/*"]
     },
     "plugins": [
       {
@@ -28,7 +31,10 @@
     "**/*.ts",
     "**/*.tsx",
     ".eslintrc.js",
-    ".next/types/**/*.ts"
+    ".next/types/**/*.ts",
+    ".types.d.ts",
+    "__test__/index.test.tsx",
+    "__mocks__/styleMock.js"
   ],
   "exclude": ["node_modules"]
 }
